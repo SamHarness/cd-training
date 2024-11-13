@@ -1,0 +1,5 @@
+service:
+  name: k8s-service
+  identifier: k8sservice
+  orgIdentifier: training_13thNov
+  projectIdentifier: Lab_Sam_Aragon
