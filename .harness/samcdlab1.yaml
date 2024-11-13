@@ -5,9 +5,8 @@ pipeline:
   orgIdentifier: training_13thNov
   tags: {}
   stages:
-    - stage1:
+    - stage:
         name: deploy
-        identifier: deploy
         description: "This is a test of gitops bi-directional sync"
         type: Deployment
         spec:
