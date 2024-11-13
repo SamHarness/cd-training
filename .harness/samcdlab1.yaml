@@ -7,7 +7,8 @@ pipeline:
   stages:
     - stage:
         name: deploy
-        description: "This is a test of gitops bi-directional sync"
+        identifier: deploy
+        description: This is a test of gitops bi-directional sync
         type: Deployment
         spec:
           deploymentType: Kubernetes
